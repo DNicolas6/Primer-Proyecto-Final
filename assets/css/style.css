@@ -1,0 +1,380 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+/** Imagen de fondo **/
+.imagen-fondo {
+    background-image: url(/assets/img/Fondos/fondo-extra.jpg);
+    width: 100%;
+    height: 57.8em;
+}
+
+/** Posicionamiento encabezado y logo **/
+.logo-encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/** Logo y Encabezado **/
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header figure {
+    margin: 0;
+}
+
+.logo-header header {
+    color: white;
+    font-size: 3em;
+    margin-left: 25px;
+    font-weight:bolder;
+}
+
+/** Navegador **/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 2em;
+}
+
+nav ul li {
+    margin-left: 20px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+/** Titulo **/
+
+div h1{
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    margin: 1em;
+    font-weight:bolder;
+}
+
+/** Descripcion **/
+
+#fondo-descripcion{
+    background-image: url(/assets/img/Fondos/fondo-breve.jpg) ;
+    height: 40em;
+}
+
+#fondo-descripcion div{
+    font-size: 40px;
+    color: white;
+}
+
+#fondo-descripcion div h2{
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+}
+
+#fondo-descripcion div p{
+    text-align: center;
+    font-style: italic;
+    line-height: 1.4em;
+}
+
+
+/** juegos caratulas **/
+
+.fondo-juegos {
+    background-image: url(/assets/img/Fondos/fondo-negro.jpg);
+    padding: 2em;
+}
+
+.caratula {
+    margin-bottom: 2em;
+}
+
+.caratula-contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caratula figure {
+    margin: 0;
+}
+
+.caratula img {
+    display: block;
+    margin: 0 auto; 
+    width: 40em;
+    height: 25em;
+}
+
+
+
+.caratula .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    flex-grow: 1;
+}
+
+
+.caratula h3 {
+    font-size: 3em;
+    color: #7d2181;
+    text-align: center;
+}
+
+.caratula p {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    line-height: 5em;
+}
+
+.caratula a {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #4b0082;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 0.3em;
+    align-self: center; 
+}
+
+/** Footer **/
+
+.pie-pagina{
+    background-image:url(/assets/img/Fondos/fondo-negro.jpg);
+}
+
+
+footer p{
+    color: white;
+    font-weight:bolder;
+    padding-left: 1em;
+    padding-top:0.5em;
+}
+footer a{
+    color: white;
+    padding-left: 1em;
+    text-decoration: none;
+}
+.derechos-autor{
+    color: white;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 19px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
+footer div figure img{
+    width: 50px;
+    height: 40px;
+}
+
+footer div figure{
+    padding-left:1em;
+}
+
+/** categorias**/
+
+#fondo-categorias {
+    background-image: url(/assets/img/Fondos/fondo-negro.jpg);
+    padding: 2em;
+}
+
+.categorias {
+    text-align: center; 
+    margin-bottom: 2em; 
+}
+
+.categorias h4 {
+    margin-bottom: 0.5em; 
+    color: white;
+    font-weight:bolder;
+    font-size: 4em;
+}
+
+.categorias figure {
+    display: inline-block; 
+}
+
+.categorias img {
+    max-width: 100%; 
+}
+
+.categorias figure img{
+    width: 60em;
+}
+
+.categorias a {
+    display: block; 
+    margin-top: 0.5em; 
+    font-weight:bolder;
+    font-size: 2em;
+}
+
+/** Juegos **/
+.fondo-videojuegos{
+    background-image: url(/assets/img/Fondos/fondo-negro.jpg);
+}
+.juegos figure{
+    display:flex;
+    justify-content: center;
+}
+.juegos{
+    padding: 5em;
+}
+
+.fondo-videojuegos div{
+    padding: 3em;
+}
+
+.juegos figure img{
+    width: 50em;
+    height: 30em;
+}
+
+.juegos h3{
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    font-size: 3em;
+}
+
+.juegos p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    border: 2px solid white;
+    padding: 10px; 
+    margin: 10px auto;
+    width: 50%;
+    line-height: 2em;
+}
+
+/** tabla de caracteristicas **/
+
+table caption{
+    font-size: 2em;
+}
+
+table{
+    border: rgb(253, 252, 252) 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: white;
+}
+
+tr{
+    border: rgb(255, 255, 255) 1px solid;
+}
+
+td{
+    border: rgb(255, 255, 255) 1px solid;
+    text-align: center;
+    padding: 1em;
+}
+
+/** Preguntas **/
+
+.preguntas{
+    background-color: rgb(46, 44, 44);
+}
+.preguntas div ul{
+    color: white;
+    padding: 3em;
+    
+}
+
+.preguntas div ul li{
+    padding-top: 1em;
+    list-style: circle;
+}
+
+.preguntas div ul li h3{
+    font-size: 4em;
+}
+
+.preguntas div ul li p{
+    font-size: 2em;
+    padding-top: 1em;
+    font-family: "Roboto Slab", serif;
+}
+
+.preguntas div ul li h5{
+    font-size: 2em;
+    padding-top: 1em;
+}
+/** formulario **/
+form{
+    width: 42.5%;
+    border: solid 2px black;
+    padding: 1em; 
+}
+
+fieldset{
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+form input{
+    padding: 0.3em;
+    border:solid 1px black;
+    font-size: 0.5em;
+}
+
+form select{
+    padding: 0.3em;
+    border:solid 1px black;
+    font-size: 0.5em;
+}
+
+textarea{
+    font-size: 1em;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton input{
+    background-color: #4b0082;
+    color: white;
+    margin: 0 0.25em;
+}
+
+fieldset form div {
+    padding-top: 0.6em;
+}
+
+
+
